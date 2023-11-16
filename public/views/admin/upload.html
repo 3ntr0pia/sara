@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir Archivo</title>
+    <style>
+        #drop-area {
+            border: 2px dashed #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            text-align: center;
+            margin: 20px;
+        }
+        #drop-area.highlight {
+            border-color: purple;
+        }
+    </style>
+</head>
+<body>
+	<a href="admin">Volver al panel de administración</a>
+
+    <div id="drop-area">
+        <form class="my-form">
+            <p>Arrastra y suelta un archivo aquí, o haz clic para seleccionar un archivo</p>
+            <input type="file" id="fileElem" multiple accept=".txt" style="display:none" onchange="handleFiles(this.files)">
+            <label class="button" for="fileElem">Seleccionar archivo</label>
+        </form>
+    </div>
+    <button onclick="uploadFile()">Subir Archivo</button>
+
+    <script src="js/upload.js"></script>
+</body>
+</html>
