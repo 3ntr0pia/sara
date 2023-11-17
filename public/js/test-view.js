@@ -11,52 +11,79 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function loadTest() {
-    const theme = localStorage.getItem('selectedTheme'); // Asume que el tema se guarda en localStorage
-    fetch(`/api/tests/${theme}`) // Asegúrate de que esta ruta del backend esté implementada
+    const theme = localStorage.getItem('selectedTheme');
+    fetch(`/api/tests/${theme}`)
         .then(response => response.json())
-        .then(test => displayTest(test));
+        .then(test => {
+            console.log("Datos cargados del JSON:", test);
+            displayTest(test);
+        });
 }
+
+
+
 
 function displayTest(test) {
     const container = document.getElementById('test-container');
     test.forEach((question, index) => {
         const questionElement = document.createElement('div');
-        questionElement.innerHTML = `<h3 class="text-info text-center">Pregunta ${index + 1}: ${question.question}</h3>`;
+        questionElement.classList.add('question');
+
+        const questionTitle = document.createElement('h3');
+        questionTitle.className = 'text-info text-center';
+        questionTitle.textContent = `Pregunta ${index + 1}: ${question.question}`;
+        questionElement.appendChild(questionTitle);
 
         question.answers.forEach(answer => {
-			const questionType = question.questionType.toLowerCase();
-			console.log(questionType);
-			if (questionType === 'selection') {
-				questionElement.innerHTML += `
-					<label class="d-flex align-items-center justify-content-center align-center"><input class="my-3" type="radio" name="question-${index}" value="${answer}">${answer}</label>
-					</br>
-				`;
-			}
-			else {
-				questionElement.innerHTML += `
-					<input type="checkbox" name="question-${index}" value="${answer}">
-					<label>${answer}</label>
-					</br>
-				`;
-			}
+            const wrapper = document.createElement('div');
+            wrapper.className = 'form-check'; // Clase de Bootstrap para inputs
+
+            const answerInput = document.createElement('input');
+            answerInput.className = 'form-check-input'; // Clase de Bootstrap
+            answerInput.type = question.questionType.toLowerCase() === 'selection' ? 'radio' : 'checkbox';
+            answerInput.name = `question-${index}`;
+            answerInput.value = answer;
+            answerInput.id = `question-${index}-answer-${answer}`;
+
+            const answerLabel = document.createElement('label');
+            answerLabel.className = 'form-check-label'; // Clase de Bootstrap
+            answerLabel.htmlFor = answerInput.id;
+            answerLabel.textContent = answer;
+
+            wrapper.appendChild(answerInput);
+            wrapper.appendChild(answerLabel);
+
+            questionElement.appendChild(wrapper);
+
+            answerInput.addEventListener('change', () => handleAnswer(answerInput, question, index));
         });
 
         container.appendChild(questionElement);
-
-		const inputs = container.querySelectorAll(`input[name="question-${index}"]`);
-        inputs.forEach(input => {
-            input.addEventListener('change', () => handleAnswer(input, question, index));
-        });
     });
-
 }
 
 function handleAnswer(input, question, questionIndex) {
+    console.log("Objeto pregunta recibido en handleAnswer:", question);
+
     answeredQuestions++;
-    if (input.value === question.questionCorrectAnswer) {
+    let isCorrect = input.value === question.questionCorrectAnswer;
+
+    if (isCorrect) {
         correctAnswers++;
+        updateAnswerStyle(input, true); // Respuesta correcta, estilo verde
+    } else {
+        updateAnswerStyle(input, false); // Respuesta incorrecta, estilo rojo
     }
+
     updateProgress();
+}
+
+function updateAnswerStyle(input, isCorrect) {
+    // Cambiar el color de la etiqueta asociada
+    const label = input.nextElementSibling;
+    if (label) {
+        label.style.color = isCorrect ? 'green' : 'red';
+    }
 }
 
 function updateProgress() {
