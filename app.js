@@ -88,17 +88,34 @@ function processTestFile(content) {
 }
 
 app.get('/api/themes', (req, res) => {
-	const uploadsDir = path.join(__dirname, 'uploads');
+    const uploadsDir = path.join(__dirname, 'uploads');
 
-	fs.readdir(uploadsDir, (err, files) => {
-		if (err) {
-			console.error('Error al listar archivos:', err);
-			return res.status(500).send('Error al obtener temas');
-		}
+    const exploreDirectory = (dirPath) => {
+        const entries = fs.readdirSync(dirPath, { withFileTypes: true });
+        let structure = {};
 
-		const themes = files.map(file => path.basename(file, path.extname(file)));
-		res.json(themes);
-	});
+        entries.forEach(entry => {
+            if (entry.isDirectory()) {
+                const subPath = path.join(dirPath, entry.name);
+                structure[entry.name] = exploreDirectory(subPath);
+            } else if (entry.isFile() && path.extname(entry.name) === '.json') {
+                if (!structure.files) {
+                    structure.files = [];
+                }
+                structure.files.push(entry.name.replace('.json', ''));
+            }
+        });
+
+        return structure;
+    };
+
+    try {
+        const themes = exploreDirectory(uploadsDir);
+		console.log(themes);
+        res.send(themes);
+    } catch (error) {
+        res.status(500).send({ error: 'Error al leer el directorio' });
+    }
 });
 
 
@@ -129,9 +146,9 @@ app.get('/test', (req, res) => {
 });
 
 let questions = [];
-app.get('/api/tests/:theme', (req, res) => {
-	const theme = req.params.theme;
-	const filePath = path.join(__dirname, 'uploads', `${theme}.json`);
+app.get('/api/tests/:subject/:topic/:test', (req, res) => {
+	const { subject, topic, test } = req.params;
+	const filePath = path.join(__dirname, 'uploads', subject, topic, `${test}.json`);
 
 	fs.readFile(filePath, 'utf8', (err, data) => {
 		if (err) {
@@ -139,32 +156,23 @@ app.get('/api/tests/:theme', (req, res) => {
 			return res.status(500).send('Error al obtener el test');
 		}
 
-		// obtene las preguntas y las respuestas del archivo json
-		const test = JSON.parse(data);
-		// test es un json con un array de preguntas y respuestas ahora necesito un array de preguntas
-		
-		for (let i = 0; i < test.length; i++) {
-			for (let j = 0; j < test[i].answers.length; j++) {
-				// now i need shuffle the answers array
-				let answers = test[i].answers;
-				// shuffle the answers
-				let shuffledAnswers = shuffle(answers);
-				let question = {
-					question: test[i].question,
-					questionType: test[i].questionType,
-					answers: shuffledAnswers
-				};
-				questions.push(question);
-				break;
-			}
-		}
+		const testContent = JSON.parse(data);
+		let questions = testContent.map(item => {
+			let shuffledAnswers = shuffle(item.answers);
+			return {
+				question: item.question,
+				questionType: item.questionType,
+				answers: shuffledAnswers,
+				questionCorrectAnswer: item.questionCorrectAnswer
+			};
+		});
 		res.json(shuffle(questions));
 	});
 });
 
-app.get('/api/tests/:theme/correction', (req, res) => {
-	const theme = req.params.theme;
-	const filePath = path.join(__dirname, 'uploads', `${theme}.json`);
+app.get('/api/tests/:subject/:topic/:test/correction', (req, res) => {
+	const { subject, topic, test } = req.params;
+	const filePath = path.join(__dirname, 'uploads', subject, topic, `${test}.json`);
 
 	fs.readFile(filePath, 'utf8', (err, data) => {
 		if (err) {
@@ -172,17 +180,14 @@ app.get('/api/tests/:theme/correction', (req, res) => {
 			return res.status(500).send('Error al obtener el test');
 		}
 
-		// necesito recorrer el array de questions (global) y comparar con el json de data
-		const test = JSON.parse(data);
-		questions.forEach((question, index) => {
-			for (let i = 0; i < test.length; i++) {
-				if (question.question === test[i].question) {
-					question.questionCorrectAnswer = test[i].questionCorrectAnswer;
-				}
-			}
+		const testContent = JSON.parse(data);
+		let questionsWithAnswers = testContent.map(item => {
+			return {
+				question: item.question,
+				questionCorrectAnswer: item.questionCorrectAnswer
+			};
 		});
-
-		res.json(questions);
+		res.json(questionsWithAnswers);
 	});
 });
 

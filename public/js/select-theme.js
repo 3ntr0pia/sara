@@ -4,25 +4,48 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function loadThemes() {
     fetch('/api/themes')
-    .then(response => response.json())
-    .then(themes => {
-        const container = document.getElementById('theme-container');
-        themes.forEach(theme => {
-            // Crea un elemento para cada tema y añádelo al contenedor
-            const themeElement = document.createElement('li');
-            themeElement.classList.add('list-group-item')
-            themeElement.classList.add('btn')
-            themeElement.classList.add('btn-danger')
-            themeElement.classList.add('px-5')
-            themeElement.classList.add('mt-3')
-            themeElement.textContent = theme;
-            themeElement.onclick = () => selectTheme(theme);
-            container.appendChild(themeElement);
+        .then(response => response.json())
+        .then(themes => {
+            const container = document.getElementById('theme-container');
+            createThemeStructure(themes, container, 0, {});
         });
+}
+
+function createThemeStructure(themes, parentElement, indentLevel, path) {
+    Object.keys(themes).forEach(key => {
+        if (Array.isArray(themes[key])) {
+            themes[key].forEach(filename => {
+                const button = document.createElement('button');
+                button.textContent = filename;
+                button.style.marginLeft = `${indentLevel * 20}px`;
+                button.dataset.assign = path.assign;
+                button.dataset.theme = path.theme;
+                button.dataset.test = filename.split('.')[0];
+                button.onclick = () => selectTheme(button.dataset.assign, button.dataset.theme, button.dataset.test);
+                parentElement.appendChild(button);
+            });
+        } else {
+            const newPath = { ...path };
+            if (indentLevel === 0) {
+                newPath.assign = key; // asignatura
+            } else {
+                newPath.theme = key; // tema
+            }
+
+            const element = document.createElement('div');
+            element.textContent = key;
+            element.style.marginLeft = `${indentLevel * 20}px`;
+            parentElement.appendChild(element);
+
+            createThemeStructure(themes[key], parentElement, indentLevel + 1, newPath);
+        }
     });
 }
 
-function selectTheme(theme) {
-    localStorage.setItem('selectedTheme', theme);
+
+function selectTheme(assign, theme, test) {
+	localStorage.setItem('selectedAssign', assign);
+	localStorage.setItem('selectedTheme', theme);
+	localStorage.setItem('selectedTest', test);
     window.location.href = '/test';
 }

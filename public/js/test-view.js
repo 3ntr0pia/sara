@@ -11,8 +11,10 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function loadTest() {
+	const assign = localStorage.getItem('selectedAssign'); // Asume que la asignatura se guarda en localStorage
     const theme = localStorage.getItem('selectedTheme'); // Asume que el tema se guarda en localStorage
-    fetch(`/api/tests/${theme}`) // Asegúrate de que esta ruta del backend esté implementada
+	const test = localStorage.getItem('selectedTest'); // Asume que el test se guarda en localStorage
+    fetch(`/api/tests/${assign}/${theme}/${test}`)
         .then(response => response.json())
         .then(test => displayTest(test));
 }
@@ -21,14 +23,14 @@ function displayTest(test) {
     const container = document.getElementById('test-container');
     test.forEach((question, index) => {
         const questionElement = document.createElement('div');
-        questionElement.innerHTML = `<h3 class="text-info text-center">Pregunta ${index + 1}: ${question.question}</h3>`;
+        questionElement.innerHTML = `<h3>Pregunta ${index + 1}: ${question.question}</h3>`;
 
         question.answers.forEach(answer => {
 			const questionType = question.questionType.toLowerCase();
 			console.log(questionType);
 			if (questionType === 'selection') {
 				questionElement.innerHTML += `
-					<label class="d-flex align-items-center justify-content-center align-center"><input class="my-3" type="radio" name="question-${index}" value="${answer}">${answer}</label>
+					<label><input type="radio" name="question-${index}" value="${answer}">${answer}</label>
 					</br>
 				`;
 			}
@@ -48,7 +50,6 @@ function displayTest(test) {
             input.addEventListener('change', () => handleAnswer(input, question, index));
         });
     });
-
 }
 
 function handleAnswer(input, question, questionIndex) {
@@ -63,11 +64,11 @@ function updateProgress() {
     // Aquí actualizas la interfaz con los aciertos y el progreso
     const progressElement = document.getElementById('progress');
     if (progressElement) {
-        progressElement.textContent = `Aciertos: ${correctAnswers}.`;
+        progressElement.textContent = `Aciertos: ${correctAnswers}. Contestadas: ${answeredQuestions}`;
     } else {
         const newProgressElement = document.createElement('div');
         newProgressElement.id = 'progress';
-        newProgressElement.textContent = `Aciertos: ${correctAnswers}.`;
+        newProgressElement.textContent = `Aciertos: ${correctAnswers}. Contestadas: ${answeredQuestions}`;
         document.body.appendChild(newProgressElement);
     }
 }
@@ -85,8 +86,6 @@ function updateTimer() {
         document.body.appendChild(newTimerElement);
     }
 }
-
-
 
 function submitTest() {
     const inputs = document.querySelectorAll('#test-container input');
