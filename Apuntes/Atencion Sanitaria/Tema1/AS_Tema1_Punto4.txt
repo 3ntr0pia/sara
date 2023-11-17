@@ -1,0 +1,209 @@
+Pregunta 1: ¿Cuál es la longitud aproximada del aparato digestivo humano?
+* Tipo: Selection
+- Respuesta A: Aproximadamente 5 metros
+- Respuesta B: Aproximadamente 9 metros (Correcta)
+- Respuesta C: Aproximadamente 12 metros
+- Respuesta D: Aproximadamente 15 metros
+
+Pregunta 2: ¿Qué estructura marca el inicio del aparato digestivo?
+* Tipo: Selection
+- Respuesta A: Esófago
+- Respuesta B: Estómago
+- Respuesta C: Boca (Correcta)
+- Respuesta D: Faringe
+
+Pregunta 3: ¿Qué órgano del aparato digestivo es responsable de la trituración de los alimentos?
+* Tipo: Selection
+- Respuesta A: El hígado
+- Respuesta B: El estómago
+- Respuesta C: La boca (Correcta)
+- Respuesta D: El intestino delgado
+
+Pregunta 4: ¿Cuál es la función principal de las glándulas salivales?
+* Tipo: Selection
+- Respuesta A: Producción de hormonas digestivas
+- Respuesta B: Absorción de nutrientes
+- Respuesta C: Producción de saliva (Correcta)
+- Respuesta D: Filtración de toxinas
+
+Pregunta 5: ¿Qué parte del aparato digestivo comunica la faringe con el estómago?
+* Tipo: Selection
+- Respuesta A: El intestino delgado
+- Respuesta B: El intestino grueso
+- Respuesta C: El esófago (Correcta)
+- Respuesta D: La vesícula biliar
+
+Pregunta 6: ¿Qué característica principal tiene el estómago?
+* Tipo: Selection
+- Respuesta A: Forma de gaita (Correcta)
+- Respuesta B: Forma de tubo
+- Respuesta C: Forma de esfera
+- Respuesta D: Forma de saco
+
+Pregunta 7: ¿Cuál es la región del estómago que controla la entrada de alimentos?
+* Tipo: Selection
+- Respuesta A: Píloro
+- Respuesta B: Antro
+- Respuesta C: Cardias (Correcta)
+- Respuesta D: Cuerpo
+
+Pregunta 8: ¿Qué parte del intestino delgado se encuentra inmediatamente después del estómago?
+* Tipo: Selection
+- Respuesta A: Yeyuno
+- Respuesta B: Íleon
+- Respuesta C: Duodeno (Correcta)
+- Respuesta D: Ciego
+
+Pregunta 9: ¿Cuál es la principal área de absorción de nutrientes en el aparato digestivo?
+* Tipo: Selection
+- Respuesta A: El estómago
+- Respuesta B: El intestino grueso
+- Respuesta C: El esófago
+- Respuesta D: El intestino delgado (Correcta)
+
+Pregunta 10: ¿Qué enfermedad del esófago es causada por el reflujo gastroesofágico?
+* Tipo: Selection
+- Respuesta A: Varices esofágicas
+- Respuesta B: Esofagitis (Correcta)
+- Respuesta C: Divertículos esofágicos
+- Respuesta D: Estenosis esofágica
+
+Pregunta 11: ¿Qué función realiza el píloro en el estómago?
+* Tipo: Selection
+- Respuesta A: Secreción de enzimas digestivas
+- Respuesta B: Absorción de nutrientes
+- Respuesta C: Regulación de la entrada de alimentos
+- Respuesta D: Regulación de la salida de alimentos hacia el duodeno (Correcta)
+
+Pregunta 12: ¿Qué proceso digestivo ocurre principalmente en el estómago?
+* Tipo: Selection
+- Respuesta A: Absorción
+- Respuesta B: Ingestión
+- Respuesta C: Digestión química (Correcta)
+- Respuesta D: Excreción
+
+Pregunta 13: ¿Cuál de las siguientes estructuras no forma parte del intestino delgado?
+* Tipo: Selection
+- Respuesta A: Duodeno
+- Respuesta B: Yeyuno
+- Respuesta C: Íleon
+- Respuesta D: Ciego (Correcta)
+
+Pregunta 14: ¿Dónde se absorbe principalmente el agua durante la digestión?
+* Tipo: Selection
+- Respuesta A: Estómago
+- Respuesta B: Intestino delgado
+- Respuesta C: Esófago
+- Respuesta D: Colon (Correcta)
+
+Pregunta 15: ¿Qué órgano es responsable de la producción de bilis?
+* Tipo: Selection
+- Respuesta A: Páncreas
+- Respuesta B: Hígado (Correcta)
+- Respuesta C: Vesícula biliar
+- Respuesta D: Estómago
+
+Pregunta 16: ¿Qué enfermedad se caracteriza por la inflamación de las encías?
+* Tipo: Selection
+- Respuesta A: Estomatitis
+- Respuesta B: Gingivitis (Correcta)
+- Respuesta C: Caries
+- Respuesta D: Úlcera bucal
+
+Pregunta 17: ¿Qué enfermedad del estómago está relacionada con la bacteria Helicobacter pylori?
+* Tipo: Selection
+- Respuesta A: Gastritis
+- Respuesta B: Cáncer de estómago
+- Respuesta C: Úlcera (Correcta)
+- Respuesta D: Síndrome de mala absorción
+
+Pregunta 18: ¿Qué trastorno del intestino grueso se caracteriza por la alternancia entre diarrea y estreñimiento?
+* Tipo: Selection
+- Respuesta A: Colitis ulcerosa
+- Respuesta B: Diverticulosis
+- Respuesta C: Colon irritable (Correcta)
+- Respuesta D: Cáncer colorrectal
+
+Pregunta 19: ¿Cuál es el principal factor de riesgo para la cirrosis hepática?
+* Tipo: Selection
+- Respuesta A: Alcoholismo (Correcta)
+- Respuesta B: Consumo excesivo de proteínas
+- Respuesta C: Falta de ejercicio
+- Respuesta D: Consumo excesivo de azúcares
+
+Pregunta 20: ¿Qué enfermedad del páncreas se caracteriza por la inflamación aguda o crónica del órgano?
+* Tipo: Selection
+- Respuesta A: Cáncer de páncreas
+- Respuesta B: Pancreatitis (Correcta)
+- Respuesta C: Diabetes
+- Respuesta D: Cistitis pancreática
+
+Pregunta 21: ¿Qué parte del intestino grueso está conectada al apéndice?
+* Tipo: Selection
+- Respuesta A: Colon
+- Respuesta B: Recto
+- Respuesta C: Ciego (Correcta)
+- Respuesta D: Sigmoide
+
+Pregunta 22: ¿Cuál es la principal función del intestino delgado?
+* Tipo: Selection
+- Respuesta A: Absorción de nutrientes (Correcta)
+- Respuesta B: Producción de enzimas digestivas
+- Respuesta C: Almacenamiento de heces
+- Respuesta D: Secreción de bilis
+
+Pregunta 23: ¿Qué es un divertículo en el contexto del aparato digestivo?
+* Tipo: Selection
+- Respuesta A: Una inflamación
+- Respuesta B: Una úlcera
+- Respuesta C: Una invaginación en forma de saco de la pared intestinal (Correcta)
+- Respuesta D: Un tumor benigno
+
+Pregunta 24: ¿Cuál es la causa más común de la hepatitis?
+* Tipo: Selection
+- Respuesta A: Infección bacteriana
+- Respuesta B: Consumo de alimentos no saludables
+- Respuesta C: Infección viral (Correcta)
+- Respuesta D: Uso excesivo de alcohol
+
+Pregunta 25: ¿Qué es la masticación en el proceso digestivo?
+* Tipo: Selection
+- Respuesta A: La descomposición química de los alimentos
+- Respuesta B: La absorción de nutrientes
+- Respuesta C: La trituración mecánica de los alimentos en la boca (Correcta)
+- Respuesta D: La eliminación de residuos
+
+Pregunta 26: ¿Qué estructura del aparato digestivo está implicada en el reflejo de la defecación?
+* Tipo: Selection
+- Respuesta A: Intestino delgado
+- Respuesta B: Estómago
+- Respuesta C: Esófago
+- Respuesta D: Recto (Correcta)
+
+Pregunta 27: ¿Qué órgano del aparato digestivo es el principal lugar de absorción de agua?
+* Tipo: Selection
+- Respuesta A: Estómago
+- Respuesta B: Intestino delgado
+- Respuesta C: Intestino grueso (Correcta)
+- Respuesta D: Hígado
+
+Pregunta 28: ¿Qué enfermedad se caracteriza por la formación de cálculos en la vesícula biliar?
+* Tipo: Selection
+- Respuesta A: Colecistitis
+- Respuesta B: Cirrosis
+- Respuesta C: Litiasis biliar (Correcta)
+- Respuesta D: Hepatitis
+
+Pregunta 29: ¿Qué parte del intestino delgado es responsable de la absorción de la mayoría de los nutrientes?
+* Tipo: Selection
+- Respuesta A: Duodeno
+- Respuesta B: Yeyuno (Correcta)
+- Respuesta C: Íleon
+- Respuesta D: Ciego
+
+Pregunta 30: ¿Qué es la digestión mecánica?
+* Tipo: Selection
+- Respuesta A: La descomposición química de los alimentos
+- Respuesta B: La trituración física de los alimentos (Correcta)
+- Respuesta C: La absorción de nutrientes
+- Respuesta D: La secreción de enzimas digestivas

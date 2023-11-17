@@ -21,14 +21,14 @@ function displayTest(test) {
     const container = document.getElementById('test-container');
     test.forEach((question, index) => {
         const questionElement = document.createElement('div');
-        questionElement.innerHTML = `<h3>Pregunta ${index + 1}: ${question.question}</h3>`;
+        questionElement.innerHTML = `<h3 class="text-info text-center">Pregunta ${index + 1}: ${question.question}</h3>`;
 
         question.answers.forEach(answer => {
 			const questionType = question.questionType.toLowerCase();
 			console.log(questionType);
 			if (questionType === 'selection') {
 				questionElement.innerHTML += `
-					<label><input type="radio" name="question-${index}" value="${answer}">${answer}</label>
+					<label class="d-flex align-items-center justify-content-center align-center"><input class="my-3" type="radio" name="question-${index}" value="${answer}">${answer}</label>
 					</br>
 				`;
 			}
@@ -48,33 +48,7 @@ function displayTest(test) {
             input.addEventListener('change', () => handleAnswer(input, question, index));
         });
     });
-	// add submit button
-	const submitButton = document.createElement('button');
-	submitButton.id = 'submit-button';
-	submitButton.type = 'submit';
-	submitButton.innerText = 'Validar respuestas';
-	// if submit button is clicked then check answers
-	submitButton.addEventListener('click', function() {
-		// get the answers and check them against the correct answers
-		const answers = document.querySelectorAll('input:checked');
-		let correctAnswers = 0;
-		for (let i = 0; i < answers.length; i++) {
-			const questionNumber = answers[i].name.split('-')[1];
-			const question = test[questionNumber];
-			const correctAnswer = question.questionCorrectAnswer;
-			if (answers[i].value === correctAnswer) {
-				correctAnswers++;
-			}
-		}
 
-		let results = document.createElement('div');
-		results.id = 'results';
-		results.innerText = `Has acertado ${correctAnswers} preguntas de ${test.length}`;
-		let body = document.querySelector('body');
-		body.appendChild(results);
-	});
-
-	container.appendChild(submitButton);
 }
 
 function handleAnswer(input, question, questionIndex) {
@@ -89,11 +63,11 @@ function updateProgress() {
     // Aquí actualizas la interfaz con los aciertos y el progreso
     const progressElement = document.getElementById('progress');
     if (progressElement) {
-        progressElement.textContent = `Aciertos: ${correctAnswers}. Contestadas: ${answeredQuestions}`;
+        progressElement.textContent = `Aciertos: ${correctAnswers}.`;
     } else {
         const newProgressElement = document.createElement('div');
         newProgressElement.id = 'progress';
-        newProgressElement.textContent = `Aciertos: ${correctAnswers}. Contestadas: ${answeredQuestions}`;
+        newProgressElement.textContent = `Aciertos: ${correctAnswers}.`;
         document.body.appendChild(newProgressElement);
     }
 }

@@ -1,0 +1,210 @@
+Pregunta 1: ¿Qué estructuras forman las vías respiratorias altas?
+* Tipo: Selection
+- Respuesta A: Laringe y tráquea
+- Respuesta B: Bronquios y bronquiolos
+- Respuesta C: Fosas nasales y faringe (Correcta)
+- Respuesta D: Alvéolos y pleura
+
+Pregunta 2: ¿Cuál es la principal función de los alvéolos pulmonares?
+* Tipo: Selection
+- Respuesta A: Filtrar el aire que respiramos
+- Respuesta B: Humedecer el aire inspirado
+- Respuesta C: Realizar el intercambio gaseoso (Correcta)
+- Respuesta D: Producir la voz
+
+Pregunta 3: ¿Qué músculo es considerado el principal en el proceso respiratorio?
+* Tipo: Selection
+- Respuesta A: Músculo pectoral
+- Respuesta B: Músculo intercostal
+- Respuesta C: Músculo esternocleidomastoideo
+- Respuesta D: Diafragma (Correcta)
+
+Pregunta 4: ¿Qué nombre recibe el espacio entre los pulmones donde se alojan estructuras como el corazón y los grandes vasos?
+* Tipo: Selection
+- Respuesta A: Pleura
+- Respuesta B: Mediastino (Correcta)
+- Respuesta C: Espacio intercostal
+- Respuesta D: Hilio pulmonar
+
+Pregunta 5: ¿Qué parte de la faringe se conecta con el oído medio?
+* Tipo: Selection
+- Respuesta A: Laringofaringe
+- Respuesta B: Oronasofaringe
+- Respuesta C: Nasofaringe (Correcta)
+- Respuesta D: Hipofaringe
+
+Pregunta 6: ¿Qué cartílago de la laringe se encuentra en la parte superior y ayuda a evitar que los alimentos entren en la tráquea?
+* Tipo: Selection
+- Respuesta A: Tiroides
+- Respuesta B: Cricoides
+- Respuesta C: Corniculado
+- Respuesta D: Epiglotis (Correcta)
+
+Pregunta 7: ¿Cómo se llama el proceso por el cual el oxígeno pasa desde los alvéolos a la sangre?
+* Tipo: Selection
+- Respuesta A: Ventilación
+- Respuesta B: Perfusión capilar
+- Respuesta C: Difusión (Correcta)
+- Respuesta D: Respiración celular
+
+Pregunta 8: ¿Qué patología respiratoria se caracteriza por una broncoconstricción intermitente y es considerada una enfermedad obstructiva?
+* Tipo: Selection
+- Respuesta A: Bronquitis
+- Respuesta B: Asma bronquial (Correcta)
+- Respuesta C: Enfisema pulmonar
+- Respuesta D: Neumonía
+
+Pregunta 9: ¿Qué tipo de insuficiencia respiratoria se caracteriza por la incapacidad aguda del aparato respiratorio de realizar el intercambio gaseoso?
+* Tipo: Selection
+- Respuesta A: Insuficiencia respiratoria crónica
+- Respuesta B: Insuficiencia respiratoria aguda (Correcta)
+- Respuesta C: Apnea del sueño
+- Respuesta D: Hiperventilación
+
+Pregunta 10: ¿Cuál de los siguientes senos paranasales no existe?
+* Tipo: Selection
+- Respuesta A: Senos frontales
+- Respuesta B: Senos maxilares
+- Respuesta C: Senos esfenoidales
+- Respuesta D: Senos palatinos (Correcta)
+
+Pregunta 11: ¿Qué función tienen los cornetes nasales?
+* Tipo: Selection
+- Respuesta A: Producción de moco
+- Respuesta B: Calentar y humidificar el aire (Correcta)
+- Respuesta C: Filtrar el aire
+- Respuesta D: Secretar enzimas digestivas
+
+Pregunta 12: ¿Qué estructura separa la cavidad nasal en dos partes?
+* Tipo: Selection
+- Respuesta A: Los cornetes
+- Respuesta B: El paladar
+- Respuesta C: El tabique nasal (Correcta)
+- Respuesta D: Las coanas
+
+Pregunta 13: ¿Cuál de los siguientes no es un seno paranasal?
+* Tipo: Selection
+- Respuesta A: Seno maxilar
+- Respuesta B: Seno frontal
+- Respuesta C: Seno etmoidal
+- Respuesta D: Seno cervical (Correcta)
+
+Pregunta 14: ¿Qué parte de la laringe actúa como una tapa para evitar la entrada de alimentos a la tráquea?
+* Tipo: Selection
+- Respuesta A: Las cuerdas vocales
+- Respuesta B: El cartílago tiroides
+- Respuesta C: El cartílago cricoides
+- Respuesta D: La epiglotis (Correcta)
+
+Pregunta 15: ¿Cuál es la causa más común de la laringitis?
+* Tipo: Selection
+- Respuesta A: Consumo de alimentos fríos
+- Respuesta B: Virus o bacterias (Correcta)
+- Respuesta C: Uso excesivo de la voz
+- Respuesta D: Alergias
+
+Pregunta 16: ¿Dónde ocurre principalmente el intercambio de gases en los pulmones?
+* Tipo: Selection
+- Respuesta A: En los bronquios
+- Respuesta B: En los bronquiolos
+- Respuesta C: En los alvéolos (Correcta)
+- Respuesta D: En la tráquea
+
+Pregunta 17: ¿Cuál es la principal causa de la bronquitis crónica?
+* Tipo: Selection
+- Respuesta A: Exposición a alérgenos
+- Respuesta B: Reflujo gastroesofágico
+- Respuesta C: Fumar tabaco (Correcta)
+- Respuesta D: Actividad física intensa
+
+Pregunta 18: ¿Qué enfermedad se caracteriza por la destrucción de los tabiques interalveolares?
+* Tipo: Selection
+- Respuesta A: Asma
+- Respuesta B: Bronquitis
+- Respuesta C: Enfisema pulmonar (Correcta)
+- Respuesta D: Tuberculosis
+
+Pregunta 19: ¿Qué patología se caracteriza por la dilatación irreversible de los bronquios?
+* Tipo: Selection
+- Respuesta A: Asma
+- Respuesta B: Bronquiectasias (Correcta)
+- Respuesta C: Neumonía
+- Respuesta D: Bronquitis crónica
+
+Pregunta 20: ¿Qué enfermedad respiratoria puede ser causada por el bacilo de Koch?
+* Tipo: Selection
+- Respuesta A: Asma
+- Respuesta B: Bronquitis
+- Respuesta C: Neumonía
+- Respuesta D: Tuberculosis (Correcta)
+
+Pregunta 21: ¿Qué tipo de pleuritis se caracteriza por la presencia de líquido en la cavidad pleural?
+* Tipo: Selection
+- Respuesta A: Seca
+- Respuesta B: Exudativa (Correcta)
+- Respuesta C: Fibrosa
+- Respuesta D: Purulenta
+
+Pregunta 22: ¿Qué músculo se contrae durante la inspiración para aumentar el volumen torácico?
+* Tipo: Selection
+- Respuesta A: Músculo intercostal externo
+- Respuesta B: Músculo intercostal interno
+- Respuesta C: Músculo abdominal
+- Respuesta D: Músculo diafragma (Correcta)
+
+Pregunta 23: ¿Cómo se denomina el proceso de salida de aire de los pulmones?
+* Tipo: Selection
+- Respuesta A: Inspiración
+- Respuesta B: Espiración (Correcta)
+- Respuesta C: Ventilación
+- Respuesta D: Perfusion
+
+Pregunta 24: ¿Qué estructura impide que el líquido pleural se acumule en exceso?
+* Tipo: Selection
+- Respuesta A: La pleura visceral
+- Respuesta B: La pleura parietal (Correcta)
+- Respuesta C: Los músculos intercostales
+- Respuesta D: El mediastino
+
+Pregunta 25: ¿Cuál de los siguientes no es considerado un trastorno obstructivo del pulmón?
+* Tipo: Selection
+- Respuesta A: Asma bronquial
+- Respuesta B: Bronquitis crónica
+- Respuesta C: Enfisema pulmonar
+- Respuesta D: Edema pulmonar (Correcta)
+
+Pregunta 26: ¿Qué término describe la dificultad para respirar?
+* Tipo: Selection
+- Respuesta A: Disnea (Correcta)
+- Respuesta B: Apnea
+- Respuesta C: Taquipnea
+- Respuesta D: Bradipnea
+
+Pregunta 27: ¿Qué estructura conecta la faringe con los bronquios?
+* Tipo: Selection
+- Respuesta A: Laringe
+- Respuesta B: Tráquea (Correcta)
+- Respuesta C: Esófago
+- Respuesta D: Epiglotis
+
+Pregunta 28: ¿Qué células del aparato respiratorio son responsables de eliminar partículas extrañas?
+* Tipo: Selection
+- Respuesta A: Neuronas
+- Respuesta B: Células ciliadas
+- Respuesta C: Células epiteliales
+- Respuesta D: Macrófagos (Correcta)
+
+Pregunta 29: ¿Qué patología se manifiesta con un tórax en forma de tonel?
+* Tipo: Selection
+- Respuesta A: Bronquitis
+- Respuesta B: Asma
+- Respuesta C: Enfisema pulmonar (Correcta)
+- Respuesta D: Neumonía
+
+Pregunta 30: ¿Qué fenómeno se observa en la insuficiencia respiratoria aguda?
+* Tipo: Selection
+- Respuesta A: Aumento de la capacidad respiratoria
+- Respuesta B: Reducción de la concentración de oxígeno en sangre (Correcta)
+- Respuesta C: Disminución de la concentración de CO2 en sangre
+- Respuesta D: Aumento de la concentración de nitrógeno en sangre
+
