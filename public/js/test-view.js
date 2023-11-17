@@ -16,8 +16,14 @@ function loadTest() {
 	const test = localStorage.getItem('selectedTest'); // Asume que el test se guarda en localStorage
     fetch(`/api/tests/${assign}/${theme}/${test}`)
         .then(response => response.json())
-        .then(test => displayTest(test));
+        .then(test => {
+            console.log("Datos cargados del JSON:", test);
+            displayTest(test);
+        });
 }
+
+
+
 
 function displayTest(test) {
     const container = document.getElementById('test-container');
@@ -44,20 +50,31 @@ function displayTest(test) {
         });
 
         container.appendChild(questionElement);
-
-		const inputs = container.querySelectorAll(`input[name="question-${index}"]`);
-        inputs.forEach(input => {
-            input.addEventListener('change', () => handleAnswer(input, question, index));
-        });
     });
 }
 
 function handleAnswer(input, question, questionIndex) {
+    console.log("Objeto pregunta recibido en handleAnswer:", question);
+
     answeredQuestions++;
-    if (input.value === question.questionCorrectAnswer) {
+    let isCorrect = input.value === question.questionCorrectAnswer;
+
+    if (isCorrect) {
         correctAnswers++;
+        updateAnswerStyle(input, true); // Respuesta correcta, estilo verde
+    } else {
+        updateAnswerStyle(input, false); // Respuesta incorrecta, estilo rojo
     }
+
     updateProgress();
+}
+
+function updateAnswerStyle(input, isCorrect) {
+    // Cambiar el color de la etiqueta asociada
+    const label = input.nextElementSibling;
+    if (label) {
+        label.style.color = isCorrect ? 'green' : 'red';
+    }
 }
 
 function updateProgress() {
