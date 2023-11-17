@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function loadTest() {
-	const assign = localStorage.getItem('selectedAssign'); // Asume que la asignatura se guarda en localStorage
-    const theme = localStorage.getItem('selectedTheme'); // Asume que el tema se guarda en localStorage
-	const test = localStorage.getItem('selectedTest'); // Asume que el test se guarda en localStorage
+	const assign = localStorage.getItem('selectedAssign'); 
+    const theme = localStorage.getItem('selectedTheme'); 
+	const test = localStorage.getItem('selectedTest'); 
     fetch(`/api/tests/${assign}/${theme}/${test}`)
         .then(response => response.json())
         .then(test => {
@@ -29,7 +29,7 @@ function displayTest(test) {
     const container = document.getElementById('test-container');
     test.forEach((question, index) => {
         const questionElement = document.createElement('div');
-        questionElement.innerHTML = `<h3>Pregunta ${index + 1}: ${question.question}</h3>`;
+        questionElement.innerHTML = `<h3 class="text-info mt-4">Pregunta ${index + 1}: ${question.question}</h3>`;
 
         question.answers.forEach(answer => {
 			const input = document.createElement('input');
@@ -37,12 +37,12 @@ function displayTest(test) {
 			input.name = `question-${index}`;
 			input.value = answer;
 		
-			// Añadir el evento de escucha
 			input.addEventListener('change', () => handleAnswer(input, question, index));
 		
 			const label = document.createElement('label');
 			label.appendChild(input);
 			label.append(answer);
+			label.classList.add('my-3')
 		
 			questionElement.appendChild(label);
 			questionElement.appendChild(document.createElement('br'));
@@ -59,17 +59,28 @@ function handleAnswer(input, question, questionIndex) {
     answeredQuestions++;
     let isCorrect = input.value === question.questionCorrectAnswer;
 
-    // Añadir aquí la lógica para cambiar de color
+    blockAndColorAnswers(question, questionIndex, isCorrect);
+
     if (isCorrect) {
         correctAnswers++;
-        input.parentElement.style.color = 'green'; // Cambia el color a verde si la respuesta es correcta
-    } else {
-        input.parentElement.style.color = 'red'; // Cambia el color a rojo si la respuesta es incorrecta
     }
 
     updateProgress();
 }
 
+function blockAndColorAnswers(question, questionIndex, isCorrect) {
+    const inputs = document.querySelectorAll(`input[name="question-${questionIndex}"]`);
+
+    inputs.forEach(input => {
+        input.disabled = true; 
+
+        if (input.value === question.questionCorrectAnswer) {
+            input.parentElement.style.color = 'green';
+        } else if (!isCorrect) {
+            input.parentElement.style.color = 'red';
+        }
+    });
+}
 
 function updateAnswerStyle(input, isCorrect) {
     const label = input.nextElementSibling;
@@ -79,7 +90,6 @@ function updateAnswerStyle(input, isCorrect) {
 }
 
 function updateProgress() {
-    // Aquí actualizas la interfaz con los aciertos y el progreso
     const progressElement = document.getElementById('progress');
     if (progressElement) {
         progressElement.textContent = `Aciertos: ${correctAnswers}.`;
@@ -137,7 +147,6 @@ function displaySummary(userAnswers) {
 
 		});
 
-		// muestra el resultado actualizado progress 
 		progress = document.getElementById('progress');
 		progress.innerText = `Aciertos: ${correctAnswers}. Contestadas: ${answeredQuestions}`;
 	})
