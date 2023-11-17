@@ -32,22 +32,22 @@ function displayTest(test) {
         questionElement.innerHTML = `<h3>Pregunta ${index + 1}: ${question.question}</h3>`;
 
         question.answers.forEach(answer => {
-			const questionType = question.questionType.toLowerCase();
-			console.log(questionType);
-			if (questionType === 'selection') {
-				questionElement.innerHTML += `
-					<label><input type="radio" name="question-${index}" value="${answer}">${answer}</label>
-					</br>
-				`;
-			}
-			else {
-				questionElement.innerHTML += `
-					<input type="checkbox" name="question-${index}" value="${answer}">
-					<label>${answer}</label>
-					</br>
-				`;
-			}
-        });
+			const input = document.createElement('input');
+			input.type = question.questionType.toLowerCase() === 'selection' ? 'radio' : 'checkbox';
+			input.name = `question-${index}`;
+			input.value = answer;
+		
+			// Añadir el evento de escucha
+			input.addEventListener('change', () => handleAnswer(input, question, index));
+		
+			const label = document.createElement('label');
+			label.appendChild(input);
+			label.append(answer);
+		
+			questionElement.appendChild(label);
+			questionElement.appendChild(document.createElement('br'));
+		});
+		
 
         container.appendChild(questionElement);
     });
@@ -59,18 +59,19 @@ function handleAnswer(input, question, questionIndex) {
     answeredQuestions++;
     let isCorrect = input.value === question.questionCorrectAnswer;
 
+    // Añadir aquí la lógica para cambiar de color
     if (isCorrect) {
         correctAnswers++;
-        updateAnswerStyle(input, true); // Respuesta correcta, estilo verde
+        input.parentElement.style.color = 'green'; // Cambia el color a verde si la respuesta es correcta
     } else {
-        updateAnswerStyle(input, false); // Respuesta incorrecta, estilo rojo
+        input.parentElement.style.color = 'red'; // Cambia el color a rojo si la respuesta es incorrecta
     }
 
     updateProgress();
 }
 
+
 function updateAnswerStyle(input, isCorrect) {
-    // Cambiar el color de la etiqueta asociada
     const label = input.nextElementSibling;
     if (label) {
         label.style.color = isCorrect ? 'green' : 'red';
@@ -81,11 +82,11 @@ function updateProgress() {
     // Aquí actualizas la interfaz con los aciertos y el progreso
     const progressElement = document.getElementById('progress');
     if (progressElement) {
-        progressElement.textContent = `Aciertos: ${correctAnswers}. Contestadas: ${answeredQuestions}`;
+        progressElement.textContent = `Aciertos: ${correctAnswers}.`;
     } else {
         const newProgressElement = document.createElement('div');
         newProgressElement.id = 'progress';
-        newProgressElement.textContent = `Aciertos: ${correctAnswers}. Contestadas: ${answeredQuestions}`;
+        newProgressElement.textContent = `Aciertos: ${correctAnswers}. `;
         document.body.appendChild(newProgressElement);
     }
 }
