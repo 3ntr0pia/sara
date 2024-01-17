@@ -1,0 +1,529 @@
+[
+  {
+    "question": "¿Qué es la iniciativa emprendedora?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Proceso social y dinámico para innovar y transformar ideas en actividades prácticas",
+    "answers": [
+      "Proceso social y dinámico para innovar y transformar ideas en actividades prácticas",
+      "Técnica para administrar empresas",
+      "Método de investigación de mercados",
+      "Herramienta financiera"
+    ]
+  },
+  {
+    "question": "¿Qué refleja la actitud emprendedora en la creación de empresas?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "La motivación y capacidad para identificar oportunidades y generar valor",
+    "answers": [
+      "La motivación y capacidad para identificar oportunidades y generar valor",
+      "La habilidad para gestionar los recursos financieros",
+      "El conocimiento técnico en un área específica",
+      "La capacidad para liderar grandes equipos"
+    ]
+  },
+  {
+    "question": "¿Cómo se relaciona la creación de empresas con el desarrollo económico en Europa?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "La creación de empresas es fundamental para el crecimiento económico",
+    "answers": [
+      "La creación de empresas es fundamental para el crecimiento económico",
+      "No tiene relación directa con el desarrollo económico",
+      "Es menos importante que en otros continentes",
+      "Depende exclusivamente de la industria tecnológica"
+    ]
+  },
+  {
+    "question": "¿Qué importancia tiene la cultura emprendedora en la sociedad actual?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Es esencial para fomentar la innovación y el desarrollo",
+    "answers": [
+      "Es esencial para fomentar la innovación y el desarrollo",
+      "Es relevante solo en el sector educativo",
+      "Tiene un impacto limitado en el progreso económico",
+      "Solo importa en el ámbito de las startups"
+    ]
+  },
+  {
+    "question": "¿Cuál es el principal desafío para emprender en un contexto de constante cambio?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Adaptarse continuamente a nuevas condiciones y oportunidades",
+    "answers": [
+      "Adaptarse continuamente a nuevas condiciones y oportunidades",
+      "Encontrar financiamiento constante",
+      "Mantener una estructura empresarial tradicional",
+      "Limitar la innovación a sectores específicos"
+    ]
+  },
+  {
+    "question": "¿Qué papel juega el entorno cultural en el emprendimiento?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Influye en la valoración y actitud hacia el esfuerzo personal y la innovación",
+    "answers": [
+      "Influye en la valoración y actitud hacia el esfuerzo personal y la innovación",
+      "Determina exclusivamente las áreas de negocio a emprender",
+      "No tiene relevancia en la decisión de emprender",
+      "Solo afecta a la comercialización de productos"
+    ]
+  },
+  {
+    "question": "¿Cuál es la diferencia entre 'motivación' y 'motivo' según Fernando Trías de Bes?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "La motivación es el deseo profundo de emprender, y el motivo es el detonante",
+    "answers": [
+      "La motivación es el deseo profundo de emprender, y el motivo es el detonante",
+      "El motivo es la pasión por emprender, y la motivación es la oportunidad",
+      "Son sinónimos en el contexto empresarial",
+      "El motivo es el plan de negocio, y la motivación es el capital"
+    ]
+  },
+  {
+    "question": "¿Por qué se incluye el módulo de iniciativa empresarial en ciclos como Atención a Personas en Situación de Dependencia?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Porque fomenta la innovación, el crecimiento y el desarrollo económico",
+    "answers": [
+      "Porque fomenta la innovación, el crecimiento y el desarrollo económico",
+      "Solo por requerimiento educativo",
+      "Para aumentar la duración del ciclo formativo",
+      "No tiene una razón específica"
+    ]
+  },
+  {
+    "question": "¿Qué caracteriza a un emprendedor según la definición general?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Identifica oportunidades y organiza recursos para ponerlas en marcha",
+    "answers": [
+      "Identifica oportunidades y organiza recursos para ponerlas en marcha",
+      "Invierte capital en negocios existentes",
+      "Es experto en todas las áreas de gestión empresarial",
+      "Se centra exclusivamente en el sector tecnológico"
+    ]
+  },
+  {
+    "question": "¿Qué importancia tiene la innovación en la figura del emprendedor según Joseph Schumpeter?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Es central, ya que impulsa el avance económico mediante cambios históricos e irreversibles",
+    "answers": [
+      "Es central, ya que impulsa el avance económico mediante cambios históricos e irreversibles",
+      "Es secundaria comparada con la inversión financiera",
+      "No es relevante en su teoría económica",
+      "Solo aplica a sectores industriales específicos"
+    ]
+  },
+  {
+    "question": "¿Qué se entiende por 'intraemprendimiento' en una empresa?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Empleados que desarrollan proyectos innovadores creando valor para la empresa",
+    "answers": [
+      "Empleados que desarrollan proyectos innovadores creando valor para la empresa",
+      "Trabajadores que invierten en la empresa",
+      "Directivos que toman decisiones estratégicas",
+      "Empleados que solo siguen instrucciones"
+    ]
+  },
+  {
+    "question": "¿Cuál de las siguientes es una característica clave para emprender?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Capacidad de análisis y resolución de problemas",
+    "answers": [
+      "Capacidad de análisis y resolución de problemas",
+      "Tener un título universitario",
+      "Poseer grandes sumas de dinero",
+      "Ser famoso o tener influencia social"
+    ]
+  },
+  {
+    "question": "¿Qué representa el emprendimiento social?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Actividades orientadas a resolver problemas sociales, a veces generando beneficio económico",
+    "answers": [
+      "Actividades orientadas a resolver problemas sociales, a veces generando beneficio económico",
+      "Empresas sin fines de lucro exclusivamente",
+      "Negocios enfocados solo en ganancias económicas",
+      "Iniciativas gubernamentales para el desarrollo social"
+    ]
+  },
+  {
+    "question": "¿De dónde surgen las ideas de negocio según el temario?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "De la observación de cambios sociales, evolución tecnológica y necesidades insatisfechas",
+    "answers": [
+      "De la observación de cambios sociales, evolución tecnológica y necesidades insatisfechas",
+      "Exclusivamente de estudios de mercado",
+      "A través de ideas aleatorias sin investigación",
+      "Solo de la experiencia empresarial previa"
+    ]
+  },
+  {
+    "question": "¿Qué debe tener una idea de negocio para ser considerada viable?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Satisfacer una necesidad detectada y ser rentable",
+    "answers": [
+      "Satisfacer una necesidad detectada y ser rentable",
+      "Ser completamente original y única",
+      "Requerir de una gran inversión",
+      "Ser promovida por un empresario famoso"
+    ]
+  },
+  {
+    "question": "¿Qué aspecto es clave en la innovación de servicios?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Mejorar los servicios existentes y personalizar la interacción con el cliente",
+    "answers": [
+      "Mejorar los servicios existentes y personalizar la interacción con el cliente",
+      "Imitar servicios de competidores exitosos",
+      "Mantener los servicios tradicionales sin cambios",
+      "Ofrecer servicios a bajo costo sin enfocarse en la calidad"
+    ]
+  },
+  {
+    "question": "¿Qué es un 'brainstorming' en el contexto de la generación de ideas de negocio?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Método para generar múltiples ideas y fomentar la creatividad",
+    "answers": [
+      "Método para generar múltiples ideas y fomentar la creatividad",
+      "Herramienta para evaluar la viabilidad financiera de una idea",
+      "Proceso de selección de personal para proyectos innovadores",
+      "Técnica de marketing para promocionar nuevos productos"
+    ]
+  },
+  {
+    "question": "¿Qué oportunidades se presentan para los Técnicos en Atención a Personas en Situación de Dependencia?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Creación de empresas en un sector en crecimiento debido al envejecimiento de la población",
+    "answers": [
+      "Creación de empresas en un sector en crecimiento debido al envejecimiento de la población",
+      "Oportunidades limitadas a trabajar en empresas ya establecidas",
+      "Emprender en sectores no relacionados con su formación",
+      "Exclusivamente oportunidades en el sector público"
+    ]
+  },
+  {
+    "question": "¿Cuál es una característica básica de una empresa desde un punto de vista económico?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Unidad económica de producción que busca satisfacer necesidades y obtener beneficio",
+    "answers": [
+      "Unidad económica de producción que busca satisfacer necesidades y obtener beneficio",
+      "Organización que opera sin fines de lucro",
+      "Entidad que depende exclusivamente de subvenciones estatales",
+      "Grupo con objetivo principal de innovación tecnológica"
+    ]
+  },
+  {
+    "question": "¿Qué se debe considerar al definir los objetivos de una empresa?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Ser medibles, ambiciosos, realistas y bien coordinados",
+    "answers": [
+      "Ser medibles, ambiciosos, realistas y bien coordinados",
+      "Basarse únicamente en objetivos financieros",
+      "Ser fijados por inversores externos",
+      "Enfocarse solo en el corto plazo"
+    ]
+  },
+  {
+    "question": "¿En qué consiste la estrategia empresarial?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Conjunto de acciones para alcanzar objetivos a largo plazo",
+    "answers": [
+      "Conjunto de acciones para alcanzar objetivos a largo plazo",
+      "Plan para reducir costos de producción únicamente",
+      "Estrategia enfocada solo en marketing y ventas",
+      "Conjunto de tácticas para eliminar competencia"
+    ]
+  },
+  {
+    "question": "¿Qué representa el liderazgo en costes como estrategia de ventaja competitiva?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Ofrecer bienes o servicios a menores costes que la competencia",
+    "answers": [
+      "Ofrecer bienes o servicios a menores costes que la competencia",
+      "Liderar en innovación sin considerar costes",
+      "Enfocarse en maximizar beneficios a cualquier costo",
+      "Ser el líder del mercado en términos de cuota de mercado"
+    ]
+  },
+  {
+    "question": "¿Qué implica la estrategia de diversificación en una empresa?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Introducir nuevos productos o entrar en nuevos mercados",
+    "answers": [
+      "Introducir nuevos productos o entrar en nuevos mercados",
+      "Focalizarse en un único producto o mercado",
+      "Reducir la variedad de productos ofrecidos",
+      "Dividir la empresa en unidades más pequeñas"
+    ]
+  },
+  {
+    "question": "¿Qué tipo de alianzas pueden formar las empresas como estrategia de cooperación?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Contratos de larga duración y acuerdos de colaboración",
+    "answers": [
+      "Contratos de larga duración y acuerdos de colaboración",
+      "Fusiones y adquisiciones exclusivamente",
+      "Relaciones competitivas con otras empresas",
+      "Alianzas temporales sin objetivos claros"
+    ]
+  },
+  {
+    "question": "¿Qué representa el 'riesgo empresarial'?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Posibilidad de sufrir pérdidas debido a factores internos o externos",
+    "answers": [
+      "Posibilidad de sufrir pérdidas debido a factores internos o externos",
+      "Riesgos exclusivamente financieros",
+      "Decisiones gubernamentales que afectan la empresa",
+      "Cambios en la dirección de la empresa"
+    ]
+  },
+  {
+    "question": "¿Qué es el 'coste de oportunidad' en el contexto empresarial?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Valor de la mejor alternativa rechazada al tomar una decisión",
+    "answers": [
+      "Valor de la mejor alternativa rechazada al tomar una decisión",
+      "Coste de producción de un bien o servicio",
+      "Gasto adicional incurrido al cambiar de estrategia",
+      "Coste de financiamiento de un nuevo proyecto"
+    ]
+  },
+  {
+    "question": "¿Qué se busca demostrar con un Plan de Empresa?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "La viabilidad y potencial de éxito del negocio",
+    "answers": [
+      "La viabilidad y potencial de éxito del negocio",
+      "El interés de inversores externos exclusivamente",
+      "La capacidad de gestión del emprendedor",
+      "Un plan detallado de marketing y ventas"
+    ]
+  },
+  {
+    "question": "¿Qué incluye el análisis del entorno y del mercado en un Plan de Empresa?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Estudio del contexto en el que operará la empresa y su competencia",
+    "answers": [
+      "Estudio del contexto en el que operará la empresa y su competencia",
+      "Análisis financiero de la empresa solamente",
+      "Detalle de los productos o servicios a ofrecer",
+      "Planificación de recursos humanos"
+    ]
+  },
+  {
+    "question": "¿Qué aspectos se consideran en el Plan de producción de un Plan de Empresa?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Gestión del almacén, aprovisionamiento y proceso productivo",
+    "answers": [
+      "Gestión del almacén, aprovisionamiento y proceso productivo",
+      "Estrategias de marketing y publicidad",
+      "Planificación de expansiones futuras",
+      "Análisis detallado del riesgo empresarial"
+    ]
+  },
+  {
+    "question": "¿Cuál es el papel de las subvenciones y donaciones en el emprendimiento social?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Sostener proyectos que no buscan lucro, como asociaciones y fundaciones",
+    "answers": [
+      "Sostener proyectos que no buscan lucro, como asociaciones y fundaciones",
+      "Financiar exclusivamente startups tecnológicas",
+      "Servir como única fuente de financiación para cualquier empresa",
+      "Invertir en proyectos de alto riesgo económico"
+    ]
+  },
+  {
+    "question": "¿Qué se entiende por 'emprendedores sociales'?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Individuos que orientan su actividad a resolver problemas sociales",
+    "answers": [
+      "Individuos que orientan su actividad a resolver problemas sociales",
+      "Empresarios enfocados únicamente en ganancias económicas",
+      "Personas que emprenden exclusivamente en el sector tecnológico",
+      "Inversores interesados en proyectos de gran escala"
+    ]
+  },
+  {
+    "question": "¿Cómo influye la evolución tecnológica en la generación de ideas de negocio?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Revoluciona modelos de negocio y abre nuevas oportunidades",
+    "answers": [
+      "Revoluciona modelos de negocio y abre nuevas oportunidades",
+      "Limita las ideas de negocio a las relacionadas con la tecnología",
+      "No tiene impacto significativo en la mayoría de los sectores",
+      "Complica el proceso de ideación al aumentar la competencia"
+    ]
+  },
+  {
+    "question": "¿Qué importancia tienen los conocimientos y experiencia personal en el emprendimiento?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Permiten encontrar nuevas formas de trabajo y mejorar la calidad del servicio",
+    "answers": [
+      "Permiten encontrar nuevas formas de trabajo y mejorar la calidad del servicio",
+      "Son irrelevantes si se tiene suficiente capital",
+      "Solo son necesarios en campos técnicos o científicos",
+      "Están limitados a la educación formal previa"
+    ]
+  },
+  {
+    "question": "¿Qué papel juegan los cambios legales en la generación de nuevas oportunidades de negocio?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Pueden generar nuevas necesidades y propiciar la aparición de nuevos servicios",
+    "answers": [
+      "Pueden generar nuevas necesidades y propiciar la aparición de nuevos servicios",
+      "No afectan significativamente a la creación de nuevas empresas",
+      "Limitan las oportunidades de negocio a sectores regulados",
+      "Son únicamente relevantes para abogados y consultores"
+    ]
+  },
+  {
+    "question": "¿Qué implica 'rediseñar un servicio' en el contexto de innovación empresarial?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Innovar en el concepto de servicio o mejorar servicios ya existentes",
+    "answers": [
+      "Innovar en el concepto de servicio o mejorar servicios ya existentes",
+      "Cambiar completamente el enfoque empresarial",
+      "Diseñar un producto físico nuevo",
+      "Imitar servicios de la competencia"
+    ]
+  },
+  {
+    "question": "¿Qué significa 'desarrollo del servicio' en términos de innovación empresarial?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Introducir mejoras en el proceso de prestación de servicios y en la organización",
+    "answers": [
+      "Introducir mejoras en el proceso de prestación de servicios y en la organización",
+      "Expandir el alcance geográfico del servicio",
+      "Ofrecer el servicio a un nuevo segmento de mercado",
+      "Reducir los costos del servicio sin mejorar la calidad"
+    ]
+  },{
+    "question": "¿Cómo contribuye la personalización en la innovación de servicios?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Adecuando el servicio a las necesidades particulares de cada cliente",
+    "answers": [
+      "Adecuando el servicio a las necesidades particulares de cada cliente",
+      "Ofreciendo el mismo servicio estándar a todos los clientes",
+      "Reduciendo la variedad de servicios ofrecidos",
+      "Centrándose exclusivamente en el bajo costo"
+    ]
+  },
+  {
+    "question": "¿Qué implica la 'selección de ideas' en el proceso de creación de empresas?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Evaluar y elegir las ideas más viables para desarrollar un plan de negocio",
+    "answers": [
+      "Evaluar y elegir las ideas más viables para desarrollar un plan de negocio",
+      "Escoger la primera idea que surja",
+      "Implementar todas las ideas sin análisis previo",
+      "Concentrarse exclusivamente en ideas innovadoras"
+    ]
+  },
+  {
+    "question": "¿Cuáles son las oportunidades para técnicos especializados en atención a personas en situación de dependencia?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Apertura de centros de día y empresas de atención domiciliaria, entre otros",
+    "answers": [
+      "Apertura de centros de día y empresas de atención domiciliaria, entre otros",
+      "Trabajar únicamente en hospitales o clínicas",
+      "Limitarse a roles de cuidado no remunerados",
+      "Enfocarse solo en investigación y desarrollo"
+    ]
+  },
+  {
+    "question": "¿Qué se entiende por 'perspectivas de futuro' en el sector de atención a personas en situación de dependencia?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Expectativas de crecimiento en demanda y empleo en el sector",
+    "answers": [
+      "Expectativas de crecimiento en demanda y empleo en el sector",
+      "Estabilidad sin cambios en el sector",
+      "Reducción de oportunidades debido a avances tecnológicos",
+      "Enfoque exclusivo en atención médica"
+    ]
+  },
+  {
+    "question": "¿Cuál es el objetivo principal de establecer estrategias de desarrollo o crecimiento en una empresa?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Expandir el negocio mediante nuevos productos, mercados o internacionalización",
+    "answers": [
+      "Expandir el negocio mediante nuevos productos, mercados o internacionalización",
+      "Mantener el negocio sin cambios",
+      "Reducir la escala de operaciones",
+      "Concentrarse exclusivamente en reducir costos"
+    ]
+  },
+  {
+    "question": "¿Qué se busca con la implementación de estrategias de cooperación empresarial?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Establecer alianzas estratégicas para beneficio mutuo y crecimiento compartido",
+    "answers": [
+      "Establecer alianzas estratégicas para beneficio mutuo y crecimiento compartido",
+      "Eliminar la competencia del mercado",
+      "Depender completamente de otra empresa",
+      "Concentrarse únicamente en acuerdos de corto plazo"
+    ]
+  },
+  {
+    "question": "¿Qué es un 'riesgo extraeconómico' en el contexto empresarial?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Riesgos ajenos a la actividad de la empresa pero que pueden influir en ella",
+    "answers": [
+      "Riesgos ajenos a la actividad de la empresa pero que pueden influir en ella",
+      "Riesgos exclusivamente relacionados con la economía global",
+      "Riesgos que solo afectan a la gestión financiera",
+      "Riesgos controlados completamente por la empresa"
+    ]
+  },
+  {
+    "question": "¿Cómo se evalúa el riesgo en la toma de decisiones empresariales?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Considerando la independencia o interdependencia de riesgos y la actitud hacia el riesgo",
+    "answers": [
+      "Considerando la independencia o interdependencia de riesgos y la actitud hacia el riesgo",
+      "Ignorando riesgos para evitar la indecisión",
+      "Basándose únicamente en la intuición",
+      "Delegando la evaluación de riesgos en consultores externos"
+    ]
+  },
+  {
+    "question": "¿Qué es la 'previsión de tesorería' en un Plan de Empresa?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Estimación de los cobros y pagos para un período determinado",
+    "answers": [
+      "Estimación de los cobros y pagos para un período determinado",
+      "Planificación a largo plazo de inversiones y gastos grandes",
+      "Registro histórico de transacciones financieras",
+      "Previsión de ventas y beneficios exclusivamente"
+    ]
+  },
+  {
+    "question": "¿Qué se analiza en la 'estructura organizativa y recursos humanos' del Plan de Empresa?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Organización interna de la empresa y perfil del equipo humano",
+    "answers": [
+      "Organización interna de la empresa y perfil del equipo humano",
+      "Exclusivamente los salarios y beneficios para los empleados",
+      "Únicamente la jerarquía de gestión superior",
+      "Planes de capacitación y desarrollo personal"
+    ]
+  },
+  {
+    "question": "¿Qué se incluye en el 'análisis del entorno y del mercado' en un Plan de Empresa?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Estudio de factores externos, competencia y demanda del mercado",
+    "answers": [
+      "Estudio de factores externos, competencia y demanda del mercado",
+      "Análisis detallado de los productos o servicios",
+      "Evaluación interna de procesos y eficiencia",
+      "Estudio de tendencias globales sin foco en el mercado específico"
+    ]
+  },
+  {
+    "question": "¿Qué representa el 'plan de marketing' en un Plan de Empresa?",
+    "questionType": "Selección",
+    "questionCorrectAnswer": "Estrategias y acciones para promocionar y vender el producto o servicio",
+    "answers": [
+      "Estrategias y acciones para promocionar y vender el producto o servicio",
+      "Un plan detallado de publicidad y medios de comunicación",
+      "Análisis de precios y costos exclusivamente",
+      "Enfoque en el desarrollo del producto sin estrategia de mercado"
+    ]
+  }
+]
